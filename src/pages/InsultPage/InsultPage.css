@@ -1,0 +1,33 @@
+.insult__error{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.insult_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+
+.insult__block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 15vh 5vh;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.insult__btn{
+    padding: 10px;
+    margin-top: 15vh;
+    font-size: 20px;
+    cursor: pointer;
+}
