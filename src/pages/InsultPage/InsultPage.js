@@ -25,13 +25,13 @@ const InsultPage = () => {
 
   return (
     <div className='insult_container'>
-            <div className='insult__block'>
-                {insult}
-            </div>
+        <div className='insult__block'>
+            {insult}
+        </div>
         <button className='insult__btn'
             onClick={getInsult}
         >
-        GENERATE INSULT
+          GENERATE INSULT
         </button>
     </div>
   )
